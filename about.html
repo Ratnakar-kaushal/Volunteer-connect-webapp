@@ -101,10 +101,21 @@
         });
     </script>
 
-    <footer class="py-3 my-4">
-        <p class="text-center text-body-secondary">© <span id="year"></span> Ratnakar Sharma | <a href="mailto:rtnsharma2403@gmail.com">rtnsharma2403@gmail.com</a></p>
-<!--         <p class="text-center text-body-secondary">© <span id="year"></span> Ratnakar Sharma</p> -->
-    </footer>
+<footer class="py-3 my-4 text-center">
+    <p class="text-body-secondary">
+        © <span id="year"></span> Ratnakar Sharma | 
+        <a href="mailto:rtnsharma2403@gmail.com">rtnsharma2403@gmail.com</a>
+    </p>
+    <div class="d-flex justify-content-center gap-3">
+        <a href="tel:+917347665345" class="btn btn-primary">
+            <i class="fa fa-phone"></i> Call
+        </a>
+        <a href="https://wa.me/917347665345" target="_blank" class="btn btn-success">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+</footer>
+
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
